@@ -13,11 +13,9 @@ public class SelectSort {
   private static int[] selectSort(int[] data) {
     int[] outArr = data.clone();
     for (int i = 0; i < outArr.length - 1; i++) {
-      int tempMinValue = outArr[i];
       int tempMinIndex = i;
       for (int j = i + 1; j < outArr.length; j++) {
-        if (tempMinValue > outArr[j]) {
-          tempMinValue = outArr[j];
+        if (outArr[tempMinIndex] > outArr[j]) {
           tempMinIndex = j;
         }
       }
