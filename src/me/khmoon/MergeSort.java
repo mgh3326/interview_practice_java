@@ -17,7 +17,7 @@ public class MergeSort {
     }
     int mid = (right + left) / 2;
     _mergeSort(outArr, left, mid);
-    _mergeSort(outArr, mid + 1, right);
+    _mergeSort(outArr, mid, right);
     // merge
     int[] tempArr = new int[right - left];
     int leftIndex = left;
