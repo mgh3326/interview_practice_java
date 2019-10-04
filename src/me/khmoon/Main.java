@@ -19,7 +19,8 @@ public class Main {
     MergeSort mergeSort = new MergeSort();
     int[] mergeSortOutputArr = mergeSort.sort(inputArr);
     System.out.println("mergeSortOutputArr = " + Arrays.toString(mergeSortOutputArr));
-      QuickSort quickSort = new QuickSort();
-      int[] quickSortOutputArr =      quickSort.sort(inputArr);
+    QuickSort quickSort = new QuickSort();
+    int[] quickSortOutputArr = quickSort.sort(inputArr);
+    System.out.println("quickSortOutputArr = " + Arrays.toString(quickSortOutputArr));
   }
 }
